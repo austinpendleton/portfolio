@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Sometype+Mono");
+
+.about {
+  max-height: 550px;
+  height: 100vh;
+}
+.about__title {
+  display: flex;
+  justify-content: center;
+}
+.about__paragraph {
+  display: flex;
+  justify-content: center;
+}
+.about__title-text {
+  font-family: "Sometype Mono", sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  color: cadetblue;
+}
+.about__paragraph-text {
+  font-family: "Sometype Mono", sans-serif;
+  font-size: 20px;
+}

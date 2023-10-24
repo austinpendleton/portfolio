@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Sometype+Mono");
+
+.languages {
+  background-color: cadetblue;
+  background-position: center;
+  background-size: cover;
+  max-height: 660px;
+  height: 100vh;
+}
+.languages__title {
+  display: flex;
+  justify-content: center;
+}
+.languages__title-text {
+  font-family: "Sometype Mono", sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+}
+.languages__paragraph {
+  display: flex;
+  justify-content: center;
+}
+.languages__paragraph-text {
+  font-family: "Sometype Mono", sans-serif;
+  font-size: 20px;
+}
+.languages__list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 90px;
+  row-gap: 30px;
+  padding-top: 40px;
+}
+.languages__images-storybook {
+  height: 96px;
+  width: 96px;
+}

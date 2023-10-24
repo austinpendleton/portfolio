@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Sometype+Mono");
+
+.introduction {
+  background-color: cadetblue;
+  background-position: center;
+  background-size: cover;
+  margin-top: 125px;
+
+  max-height: 550px;
+  height: 100vh;
+}
+.introduction__image {
+  max-height: 500px;
+  max-width: 500px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+}
+.introduction__picture {
+  display: flex;
+  justify-content: flex-end;
+  padding: 14px 16px;
+  margin-right: 150px;
+}
+.name__wrapper {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  top: 230px;
+  margin-left: 150px;
+}
+.hello__wrapper {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  top: 200px;
+  margin-left: 150px;
+}
+.title__wrapper {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  margin-left: 150px;
+  top: 400px;
+}
+.name__text {
+  font-family: "Sometype Mono", sans-serif;
+  font-size: 70px;
+  font-style: italic;
+  font-weight: 900;
+  z-index: 0;
+}
+.hello__text {
+  font-family: "Sometype Mono", sans-serif;
+  font-size: 30px;
+  font-style: italic;
+}
+.title__text {
+  font-family: "Sometype Mono", sans-serif;
+  font-size: 50px;
+  font-style: italic;
+}
