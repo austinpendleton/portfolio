@@ -49,21 +49,21 @@ li {
   float: left;
 }
 
-li a {
+li .header__links {
   display: block;
   color: white;
   text-align: center;
   padding: 14px 30px;
   text-decoration: none;
 }
-a {
+.header__links {
   box-shadow: inset 0 0 0 0 white;
   color: white;
   margin: 0 -0.25rem;
   padding: 0 0.25rem;
   transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
-a:hover {
+.header__links:hover {
   box-shadow: inset 150px 0 0 0 white;
   color: black;
 }

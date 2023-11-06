@@ -70,7 +70,7 @@ const Languages = () => {
         <img
           src={storybook}
           alt="React"
-          className="languages__images-storybook"
+          className="languages__images-storybook languages__images"
         />
       </div>
     </section>

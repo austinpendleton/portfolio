@@ -13,24 +13,49 @@ const Header = () => {
 
       <ul className="header__nav">
         <li>
-          <a href="">About</a>
+          <a className="header__links" href="">
+            About
+          </a>
         </li>
         <li>
-          <a href="">Projects</a>
+          <a className="header__links" href="">
+            Projects
+          </a>
         </li>
         <li>
-          <a href="">Languages</a>
+          <a className="header__links" href="">
+            Languages
+          </a>
         </li>
         <li>
-          <a href="">Contact</a>
+          <a className="header__links" href="">
+            Contact
+          </a>
         </li>
       </ul>
 
       <div className="header__social">
-        <img className="linkedin__logo" alt="LinkedIn" src={linkedin} />
-        <img className="github__logo" alt="GitHub" src={github} />
-        <img className="gmail__logo" alt="Gmail" src={gmail} />
-        <img className="instagram__logo" alt="Instagram" src={instagram} />
+        <a
+          className=""
+          href="https://www.linkedin.com/in/austinp-tech/"
+          target="_blank"
+        >
+          <img className="linkedin__logo" alt="LinkedIn" src={linkedin} />
+        </a>
+        <a
+          className=""
+          href="https://github.com/austinpendleton"
+          target="_blank"
+        >
+          <img className="github__logo" alt="GitHub" src={github} />
+        </a>
+        <a
+          className=""
+          href="https://www.instagram.com/austinpendleton/"
+          target="_blank"
+        >
+          <img className="instagram__logo" alt="Instagram" src={instagram} />
+        </a>
       </div>
     </header>
   );

@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Sometype+Mono");
 
 .languages {
-  background-color: cadetblue;
+  background-color: slategray;
   background-position: center;
   background-size: cover;
   max-height: 660px;
@@ -13,6 +13,7 @@
 }
 .languages__title-text {
   font-family: "Sometype Mono", sans-serif;
+  color: white;
   font-size: 50px;
   font-weight: 900;
 }
@@ -23,6 +24,7 @@
 .languages__paragraph-text {
   font-family: "Sometype Mono", sans-serif;
   font-size: 20px;
+  color: white;
 }
 .languages__list {
   display: flex;
@@ -36,4 +38,10 @@
 .languages__images-storybook {
   height: 96px;
   width: 96px;
+}
+.languages__images:hover {
+  transform: scale(1.5);
+}
+.languages__images {
+  transition: transform 0.5s;
 }
