@@ -1,3 +1,5 @@
+import React from "react";
+import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 import "../blocks/Header.css";
 import instagram from "../images/instagram-logo.svg";
 import linkedin from "../images/linkedin-logo.svg";
@@ -13,9 +15,9 @@ const Header = () => {
 
       <ul className="header__nav">
         <li>
-          <a className="header__links" href="">
+          <Link to="/about" className="header__links">
             About
-          </a>
+          </Link>
         </li>
         <li>
           <a className="header__links" href="">

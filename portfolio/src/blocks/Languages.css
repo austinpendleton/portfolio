@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Sometype+Mono");
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker");
+@import url("https://fonts.googleapis.com/css?family=Urbanist");
 
 .languages {
   background-color: slategray;
@@ -12,18 +13,18 @@
   justify-content: center;
 }
 .languages__title-text {
-  font-family: "Sometype Mono", sans-serif;
-  color: white;
+  font-family: "Permanent Marker", sans-serif;
   font-size: 50px;
   font-weight: 900;
+  color: white;
 }
 .languages__paragraph {
   display: flex;
   justify-content: center;
 }
 .languages__paragraph-text {
-  font-family: "Sometype Mono", sans-serif;
-  font-size: 20px;
+  font-family: "Urbanist", sans-serif;
+  font-size: 25px;
   color: white;
 }
 .languages__list {

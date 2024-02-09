@@ -1,5 +1,6 @@
 import "../blocks/ContactForm.css";
-import { useRef } from "react";
+import React, { useRef } from "react";
+
 import emailjs from "emailjs-com";
 
 const ContactForm = () => {
